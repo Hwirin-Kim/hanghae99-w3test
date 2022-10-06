@@ -12,7 +12,8 @@ function App() {
   const input = (e) => {
     const value = e.target.value;
 
-    setTodo([value]);
+    setTodo(value);
+    console.log(todo);
   };
 
   const addTodo = () => {
